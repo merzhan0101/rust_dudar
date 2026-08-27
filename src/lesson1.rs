@@ -9,13 +9,3 @@ PS C:\OSPanel\domains\rust_dudar> rustc lesson1.rs
 PS C:\OSPanel\domains\rust_dudar> .\lesson1.exe   
 Salem alem
 */
-
-
-// LESSON 2 ==================================
-// cargo
-
-// форматировать файл: rustfmt name_file.rs
-
-fn main() {
-    println!("Salem alem");
-}

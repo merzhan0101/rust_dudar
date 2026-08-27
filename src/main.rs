@@ -1,27 +1,17 @@
+// LESSON 3 => https://itproger.com/course/rust/3 
+
 fn main() {
+    // Const, tuple, arrays
+    const USER_MAX_SCORE: u32 = 1_000_000;
+    // println!("Info: {}", USER_MAX_SCORE);
 
-    // Integer: i8, i16, i32, i64, i128, u8, u16, u32, u64, u128 //Тип данных
-    let num: u8 = 50; //mut означает mutable — изменяемый.
-    println!("Result: {}", num);
+    // КОРТЕЖ - Tuple — это способ хранить несколько значений разных типов в одной переменной.
+    let mut user_alex: (i8, bool, f32, char) = (42, true, 1.86, 'R');
+    user_alex.2 = 2.0;
+    // println!("Info: {}", user_alex.2);
 
-    let num: i16 = -4500;
-    println!("Result: {}", num);
-
-    let num: u64 = 1000000;
-    println!("Result: {}", num);
-
-    // Float
-    let num: f32 = 5.453;
-    println!("Result: {}", num);
-
-    let num: f64 = 5.453234;
-    println!("Result: {}", num);
-
-    // Boolean
-    let is_has_car: bool = false;
-    println!("Result: {}", is_has_car);
-
-    // Char
-    let sym: char = '%';
-    println!("Result: {}", sym);
+    // ARRAY - МАССИВ
+    let mut nums: [i8; 5] = [1, 5, 2, 7, 3];
+    nums[0] = 10;
+    // println!("Info: {}", nums[0]);
 }
