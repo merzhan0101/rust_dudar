@@ -1,4 +1,5 @@
-// LESSON 1 ==================================
+// LESSON #1 – Что такое Rust программирование? Введение для начинающих
+// link rust course: https://itproger.com/course/rust
 
 fn main() {
     println!("Salem alem");

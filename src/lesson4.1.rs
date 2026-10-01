@@ -1,3 +1,4 @@
+// LESSON #4 – Управление памятью и владение (Ownership)
 use std::io;
 
 fn main() {

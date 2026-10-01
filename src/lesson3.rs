@@ -1,4 +1,4 @@
-// LESSON 3 => https://itproger.com/course/rust/3 
+// LESSON #3 – Константы, кортежи и массивы => https://itproger.com/course/rust/3 
 
 fn main() {
     // Const, tuple, arrays

@@ -1,4 +1,4 @@
-// LESSON 2 - cargo
+// LESSON #2 – Основы. Переменные и типы данных
 
 // форматировать файл: rustfmt name_file.rs
 
